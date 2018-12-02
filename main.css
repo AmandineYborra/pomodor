@@ -1,0 +1,48 @@
+body * {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    color: white;
+}
+
+.spacing {
+    margin-right: 7%;
+}
+
+#btn-container {
+    width: 50%;
+    padding-left: 15.5em;
+}
+
+#listField {
+    margin-left: 33%;
+}
+
+#timerMinutes, #timerSeconds, .inline {
+    display: inline;
+    font-size: 120px;
+}
+
+h1 {
+    font-size: 120px;
+    color: red;
+}
+
+#minutes, #seconds {
+    margin-top: 5%;
+}
+
+#minutes {
+    margin-left: 1%;
+}
+
+#seconds {
+    margin-left: 3%;
+}

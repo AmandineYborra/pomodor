@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pomodoro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/knacss.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+</head>
+<body>
+    <section class="flex-container--column">
+        <div  class="center">
+            <h1>Pomodoro</h1>
+        </div>
+        <div class="center w25">
+            <input type="text" placeholder="Entrez une tâche" class="w100" id="task">
+            <input type="number" id="minutes" placeholder="Minutes" class="center">
+            <input type="number" id="seconds" placeholder="Secondes" class="center">
+        </div>
+        <div class="center">
+            <p id="timerMinutes">00</p>
+            <p class="inline">:</p>
+            <p id="timerSeconds">00</p>
+        </div>
+    </section>
+    
+    <section class="flex-container center" id="btn-container">
+        <button class="btn--success spacing" id="play-btn">Start</button>
+        <button class="btn--warning spacing" id="pause-btn">Pause</button>
+        <button class="btn--danger spacing" id="stop-btn">Stop</button>
+    </section>
+
+    <section class="flex-container center">
+        <del>
+            <ul id="listField">
+            </ul>
+        </del>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
